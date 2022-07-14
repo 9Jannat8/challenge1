@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  /* position: relative; */
+}
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #4b4a4a;
+}
+p {
+}
+.orange-color {
+  color: #fba24f;
+  /* font-family: 'Poppins', sans-serif;
+    font-weight: 800; */
+}
+.introduction {
+  display: flex;
+  margin-bottom: 87px;
+}
+.half-width {
+  width: 50%;
+}
+.description {
+  margin-top: 200px;
+  margin-left: 100px;
+}
+/* .half-width img{
+    
+} */
+.image {
+  position: relative;
+}
+#shape1 {
+  width: 440px;
+  position: absolute;
+  top: 170px;
+}
+#hero {
+  position: absolute;
+  width: 550px;
+  height: 530px;
+  top: 60px;
+  left: -97px;
+}
+.description p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #828282;
+  margin-top: 40px;
+}
+.btn {
+  width: 128px;
+  height: 20px;
+  background-image: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
+  box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+  border-radius: 100px;
+  margin-top: 49px;
+  padding: 24px 32px;
+  text-align: center;
+  /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+.btn a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* about me */
+.about-me {
+  background-image: url("./images1/aboutBack.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 600px;
+}
